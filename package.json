@@ -1,0 +1,36 @@
+{
+  "name": "underscoreunderscore",
+  "description": "Underscore Underscore gives you magic variables to figure out what file (or line or column) you are in, get a stack trace, or know what code called the current file",
+  "version": "0.0.1",
+  "dependencies": {
+  },
+  "scripts": {
+    "test": "make test"
+  },
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "main": "__.js",
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {
+    "mocha": "~1.8.2",
+    "wish": "~0.0.6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/EvanBurchard/underscoreunderscore.git"
+  },
+  "keywords": [
+    "magic variables",
+    "underscore underscore",
+    "stack",
+    "trace",
+    "file",
+    "column",
+    "line"
+  ],
+  "author": "evanburchard",
+  "email": "evan.burchard@gmail.com"
+}
+
