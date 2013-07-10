@@ -1,6 +1,7 @@
-The `__FILE__` magic variable has a fairly long history, but sadly, it's nowhere to be found in JavaScript.
+## Note
+There are other approaches to this in node by using the __file global variable and the console.trace() function.  For getting true cross-browser functionality, you might want something like this: https://github.com/eriwen/javascript-stacktrace
 
-So what do you do if you want to figure out what file you're executing in js?  Basically, the only option is to throw an error.
+## Across browsers and node however, this is how you get a stack trace
 
     function(){{ try { throw Error(''); } catch(err) { return err; } }; };
 

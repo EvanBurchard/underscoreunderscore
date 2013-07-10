@@ -1,7 +1,7 @@
 {
   "name": "underscoreunderscore",
-  "description": "Underscore Underscore gives you magic variables to figure out what file (or line or column) you are in, get a stack trace, or know what code called the current file",
-  "version": "0.0.1",
+  "description": "Underscore Underscore gives you magic variables to figure out what file (or line or column) you are in, get a stack trace, or know what code called the current file.  Sometimes you just need node's __file magic variable or console.trace() function.",
+  "version": "0.0.2",
   "dependencies": {
   },
   "scripts": {
